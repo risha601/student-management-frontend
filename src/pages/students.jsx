@@ -1,4 +1,4 @@
-import "./Student.css";
+import "./student.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
