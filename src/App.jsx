@@ -1,40 +1,27 @@
 import { Routes, Route } from "react-router-dom";
 
-import Login from "./Pages/Login";
-import Register from "./Pages/Register";
-import Students from "./Pages/Students";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import Students from "./pages/students";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Login />} />
 
-    return (
+      <Route path="/register" element={<Register />} />
 
-        <Routes>
-
-            <Route path="/" element={<Login />} />
-
-            <Route path="/register" element={<Register />} />
-
-            <Route
-
-                path="/students"
-
-                element={
-
-                    <ProtectedRoute>
-
-                        <Students />
-
-                    </ProtectedRoute>
-
-                }
-
-            />
-
-        </Routes>
-
-    );
-
+      <Route
+        path="/students"
+        element={
+          <ProtectedRoute>
+            <Students />
+          </ProtectedRoute>
+        }
+      />
+    </Routes>
+  );
 }
 
 export default App;
