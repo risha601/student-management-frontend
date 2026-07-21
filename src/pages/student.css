@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+}
+
+.students-container {
+    width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.students-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.students-container input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Common button style */
+
+.students-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Add */
+
+.add-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+/* Update */
+
+.update-btn {
+    background-color: #ff9800;
+    color: white;
+}
+
+.update-btn:hover {
+    background-color: #e68900;
+}
+
+/* Load */
+
+.load-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.load-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Student Card */
+
+.student-card {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f8f9fa;
+    border-left: 5px solid #007bff;
+}
+
+.student-card h3 {
+    margin: 0;
+    color: #333;
+}
+
+.student-card p {
+    margin: 8px 0;
+}
+
+/* Edit Button */
+
+.edit-btn {
+    width: 48%;
+    background-color: rgba(4, 255, 71, 0.699);
+    color: white;
+    margin-right: 4%;
+}
+
+.edit-btn:hover {
+    background-color:rgba(4, 255, 71, 0.521);
+}
+
+/* Delete Button */
+
+.delete-btn {
+    width: 48%;
+    background-color: crimson;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
